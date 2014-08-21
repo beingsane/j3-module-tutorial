@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.3.0" client="site" method="upgrade">
+    <name>mod_yourmodule</name>
+    <version>1.0.0</version>
+	<creationDate>August 2014</creationDate>
+    <author>Joomla Doe</author>
+	<authorUrl>www.yourmodule.org</authorUrl>
+ 	<authorEmail>joomla.doe@yourmodule.org</authorEmail>
+	<copyright>Copyright (C) 2014 Joomla Doe</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <description>Your own first custom module.</description>
+    <files>
+        <filename>mod_yourmodule.xml</filename>
+        <filename module="mod_yourmodule">mod_yourmodule.php</filename>
+        <folder>tmpl</folder>
+    </files>
+    <config>
+    </config>
+</extension>
