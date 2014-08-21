@@ -1,0 +1,12 @@
+/**
+ * Copyright (C) 2014 Joomla Doe
+ * License GNU General Public License version 2 or later; see LICENSE.txt, see LICENSE.php
+ * package my module
+ * author Joomla Doe
+*/
+.yourmodule h4{
+	color: #08c;
+}
+.yourmodule p {
+	color: #005580;
+}
