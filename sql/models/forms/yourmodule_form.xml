@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset addfieldpath="modules/mod_yourmodule/models/fields"
+			  addrulepath="modules/mod_yourmodule/models/rules">
+		<field name="subject"
+			type="text"
+			size="60"
+			description="MOD_YOURMODULE_MESSAGE_SUBJECT_DESC"
+			label="MOD_YOURMODULE_MESSAGE_SUBJECT_LABEL"
+			filter="string"
+			validate="yourmodulemessagesubject"
+			required="true"/>
+		<field name="message"
+			type="textarea"
+			cols="50"
+			rows="10"
+			description="MOD_YOURMODULE_ENTER_MESSAGE_DESC"
+			label="MOD_YOURMODULE_ENTER_MESSAGE_LABEL"
+			filter="safehtml"
+			validate="yourmodulemessage"
+			required="true"/>
+		</fieldset>
+	<fieldset name="captcha">
+		<field
+			name="captcha"
+			type="captcha"
+			label="MOD_YOURMODULE_CAPTCHA_LABEL"
+			description="MOD_YOURMODULE_CAPTCHA_DESC"
+			validate="captcha"
+			namespace="contact"
+		/>
+</form>

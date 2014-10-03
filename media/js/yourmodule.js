@@ -6,4 +6,4 @@
 
 jQuery( document ).ready(function()
 		{
-			alert('I am an alert from yourmodule.js!');});
+			alert('I am an alert from alert.js!');});
