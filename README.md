@@ -1,4 +1,4 @@
-module-tutorial
+J3 module tutorial
 ===============
 
-Module tutorialfiles
+Module tutorial files
